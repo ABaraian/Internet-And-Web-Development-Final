@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Get The Latest News Articles in Your Favorite Language and Print To GoogleDocs</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+				background-color: cadetblue;
+				font-family: sans-serif;
+				
+			}
+			fieldset{
+				display: flex;
+				border-radius: 5px;
+				border-style: double;
+			}
+			input#language{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#submit{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form action="search" method="get">
+			<fieldset>
+				<legend>Get The Latest News Articles in Your Favorite Language and Print To GoogleDocs</legend>
+				<label for="language">Language</label>
+				<input id="language" name="language" type="text" />
+				
+			
+				<input type="submit" value="Create Job List" />
+			</fieldset>
+		</form>
+		<p>Included Languages are Arabic, Chinese, Dutch, English, Finnish, French, German, Hindi, Italian, Japanese, Korean, Malay, Portugese, Russian, Spanish,Vietnamese, Danish, Czech, Greek, Hungarian, Serbian, Thai, and Turkish</p>
+		<p>**Language Input Is Not Case Senstive**</p>
+	</body>
+</html>
